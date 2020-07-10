@@ -1,0 +1,1 @@
+quteBrowserShouldScroll = false;
