@@ -139,7 +139,6 @@ c.content.cookies.accept    = 'no-3rdparty'
 c.content.pdfjs             = False
 c.content.fullscreen.window = True
 c.spellcheck.languages      = ["af-ZA", "de-DE", "en-GB", "it-IT", "es-ES", "fr-FR", "ru-RU"]
-c.statusbar.position        = 'top'
 c.tabs.show                 = 'never'
 c.tabs.tabs_are_windows     = True
 c.url.default_page          = 'about:blank'
