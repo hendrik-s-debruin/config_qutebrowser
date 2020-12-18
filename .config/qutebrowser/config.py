@@ -20,40 +20,41 @@ c.aliases = {'w': 'session-save',
 # ==============================================================================
 # Theme
 # ==============================================================================
-background   = '#1d1f21'
-foreground   = '#c5c8c6'
-black        = '#282a2e'
-gray         = "#373b41"
-lightgray    = "#707880"
-white        = "#c5c8c6"
-red          = "#a54242"
-lightred     = "#cc6666"
-green        = "#8c9440"
-lightgreen   = "#b5bd68"
-orange       = "#de935f"
-yellow       = "#f0c674"
-blue         = "#5f819d"
-lightblue    = "#81a2be"
-magenta      = "#85678f"
-lightmagenta = "#b294bb"
-cyan         = "#5e8d87"
-lightcyan    = "#8abeb7"
+background   = '#32302f'
+foreground   = '#ebdbb2'
+highlight     = "#3c3836"
+black        = '#282828'
+gray         = "#928374"
+lightgray    = "#202020"
+white        = "#a89984"
+red          = "#cc241d"
+lightred     = "#fb4934"
+green        = "#98971a"
+lightgreen   = "#b8bb26"
+orange       = "#d79921"
+yellow       = "#fabd2f"
+blue         = "#458588"
+lightblue    = "#83a598"
+magenta      = "#b16286"
+lightmagenta = "#d3869b"
+cyan         = "#689d6a"
+lightcyan    = "#8ec07c"
 
 # ============================== Completion Widget =============================
 c.colors.completion.category.bg                 = background
 c.colors.completion.category.border.bottom      = background
 c.colors.completion.category.border.top         = gray
 c.colors.completion.category.fg                 = foreground
-c.colors.completion.even.bg                     = black
-c.colors.completion.odd.bg                      = gray
+c.colors.completion.even.bg                     = background
+c.colors.completion.odd.bg                      = background
 c.colors.completion.fg                          = [foreground, foreground, foreground]
-c.colors.completion.item.selected.bg            = yellow
-c.colors.completion.item.selected.border.bottom = orange
-c.colors.completion.item.selected.border.top    = orange
-c.colors.completion.item.selected.fg            = background
-c.colors.completion.match.fg                    = green
+c.colors.completion.item.selected.bg            = highlight
+c.colors.completion.item.selected.border.bottom = highlight
+c.colors.completion.item.selected.border.top    = highlight
+c.colors.completion.item.selected.fg            = foreground
+c.colors.completion.match.fg                    = yellow
 c.colors.completion.scrollbar.bg                = background
-c.colors.completion.scrollbar.fg                = lightgray
+c.colors.completion.scrollbar.fg                = foreground
 
 # ================================ Download Bar ================================
 c.colors.downloads.bar.bg                       = background
@@ -81,24 +82,24 @@ c.colors.messages.error.border                  = red
 c.colors.messages.error.fg                      = foreground
 
 # ------------------------------------ Info ------------------------------------
-c.colors.messages.info.bg                       = gray
-c.colors.messages.info.border                   = gray
+c.colors.messages.info.bg                       = background
+c.colors.messages.info.border                   = background
 c.colors.messages.info.fg                       = foreground
 
 # ---------------------------------- Warnings ----------------------------------
-c.colors.messages.warning.bg                    = orange
-c.colors.messages.warning.border                = orange
-c.colors.messages.warning.fg                    = background
+c.colors.messages.warning.bg                    = background
+c.colors.messages.warning.border                = background
+c.colors.messages.warning.fg                    = yellow
 
 # =================================== Prompts ==================================
 c.colors.prompts.bg                             = background
-c.colors.prompts.border                         = '3px solid ' + gray
+c.colors.prompts.border                         = '3px solid ' + background
 c.colors.prompts.fg                             = foreground
 c.colors.prompts.selected.bg                    = yellow
 
 # ==================================== Modes ===================================
 # -------------------------------- Command Mode --------------------------------
-c.colors.statusbar.command.bg                   = gray
+c.colors.statusbar.command.bg                   = background
 c.colors.statusbar.command.fg                   = foreground
 c.colors.statusbar.command.private.bg           = background
 c.colors.statusbar.command.private.fg           = foreground
@@ -108,7 +109,7 @@ c.colors.statusbar.insert.bg                    = blue
 c.colors.statusbar.insert.fg                    = foreground
 
 # --------------------------------- Normal Mode --------------------------------
-c.colors.statusbar.normal.bg                    = gray
+c.colors.statusbar.normal.bg                    = background
 c.colors.statusbar.normal.fg                    = foreground
 
 # ------------------------------ Passthrough Mode ------------------------------
@@ -117,7 +118,7 @@ c.colors.statusbar.passthrough.fg               = foreground
 
 # -------------------------------- Private Mode --------------------------------
 c.colors.statusbar.private.bg                   = background
-c.colors.statusbar.private.fg                   = foreground
+c.colors.statusbar.private.fg                   = yellow
 
 # ==================================== URLs ====================================
 c.colors.statusbar.url.error.fg                 = orange
@@ -128,7 +129,7 @@ c.colors.statusbar.url.success.https.fg         = 'lime'
 c.colors.statusbar.url.warn.fg                  = yellow
 
 # ==================================== Tabls ===================================
-c.colors.tabs.selected.odd.bg                   = gray
+c.colors.tabs.selected.odd.bg                   = background
 c.colors.tabs.selected.odd.fg                   = foreground
 
 # ==============================================================================
@@ -170,10 +171,13 @@ c.url.searchengines = {
     # ================================= General ================================
     # DuckDuckGO
     'DEFAULT': 'https://duckduckgo.com/?q={}',
+    'd': 'https://duckduckgo.com/?q={}',
     # Google
     'g' :  'http://www.google.com/search?q={}',
     # Youtube
     'y' : 'https://www.youtube.com/results?search_query={}',
+    # google scholar
+    's' : 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={}',
 
     # ================================ Reference ===============================
     # CPPreference
