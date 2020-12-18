@@ -20,25 +20,25 @@ c.aliases = {'w': 'session-save',
 # ==============================================================================
 # Theme
 # ==============================================================================
-background   = '#32302f'
-foreground   = '#ebdbb2'
-highlight     = "#3c3836"
-black        = '#282828'
-gray         = "#928374"
-lightgray    = "#202020"
-white        = "#a89984"
-red          = "#cc241d"
-lightred     = "#fb4934"
-green        = "#98971a"
-lightgreen   = "#b8bb26"
-orange       = "#d79921"
-yellow       = "#fabd2f"
-blue         = "#458588"
-lightblue    = "#83a598"
-magenta      = "#b16286"
-lightmagenta = "#d3869b"
-cyan         = "#689d6a"
-lightcyan    = "#8ec07c"
+background       = "#32302f"
+foreground       = "#ebdbb2"
+highlight        = "#3c3836"
+black            = "#282828"
+gray             = "#928374"
+lightgray        = "#202020"
+white            = "#a89984"
+red              = "#cc241d"
+lightred         = "#fb4934"
+green            = "#98971a"
+lightgreen       = "#b8bb26"
+orange           = "#d79921"
+yellow           = "#fabd2f"
+blue             = "#458588"
+lightblue        = "#83a598"
+magenta          = "#b16286"
+lightmagenta     = "#d3869b"
+cyan             = "#689d6a"
+lightcyan        = "#8ec07c"
 
 # ============================== Completion Widget =============================
 c.colors.completion.category.bg                 = background
@@ -128,9 +128,12 @@ c.colors.statusbar.url.success.http.fg          = foreground
 c.colors.statusbar.url.success.https.fg         = 'lime'
 c.colors.statusbar.url.warn.fg                  = yellow
 
-# ==================================== Tabls ===================================
+# ==================================== Tabs ====================================
 c.colors.tabs.selected.odd.bg                   = background
 c.colors.tabs.selected.odd.fg                   = foreground
+
+# =================================== Webpage ==================================
+c.colors.webpage.bg                             = background
 
 # ==============================================================================
 # Behaviour
