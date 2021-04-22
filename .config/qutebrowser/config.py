@@ -214,4 +214,8 @@ c.url.searchengines = {
     'enru' : 'http://www.wordreference.com/enru/{}',
     'ruen' : 'http://www.wordreference.com/ruen/{}',
     'руан' : 'http://www.wordreference.com/ruen/{}',
+
+    # Czech
+    'encz' : 'https://slovnik.seznam.cz/preklad/anglicky_cesky/{}',
+    'czen' : 'https://slovnik.seznam.cz/preklad/cesky_anglicky/{}',
 }
