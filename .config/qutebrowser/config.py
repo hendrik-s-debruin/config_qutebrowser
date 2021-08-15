@@ -218,4 +218,7 @@ c.url.searchengines = {
     # Czech
     'encz' : 'https://slovnik.seznam.cz/preklad/anglicky_cesky/{}',
     'czen' : 'https://slovnik.seznam.cz/preklad/cesky_anglicky/{}',
+
+    # ================================== IEEE ==================================
+    'ieee': 'https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={}'
 }
