@@ -191,6 +191,9 @@ c.url.searchengines = {
     'so':      'https://stackoverflow.com/search?q={}',
     # Python
     'py':      'https://docs.python.org/3.8/search.html?q={}&check_keywords=yes&area=default',
+    # Rust
+    'rstd' : 'https://doc.rust-lang.org/std/?search={}',
+    'rdoc': 'https://docs.rs/releases/search?query={}',
 
     # ============================== Dictionaries ==============================
     'enit':    'http://www.wordreference.com/enit/{}',
@@ -222,5 +225,10 @@ c.url.searchengines = {
     'czen':    'https://slovnik.seznam.cz/preklad/cesky_anglicky/{}',
 
     # ================================== IEEE ==================================
-    'ieee':    'https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={}'
+    'ieee':    'https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={}',
+
+    # ================================ Crates.io ===============================
+    'cratesio': 'https://crates.io/search?q={}',
+    'crates': 'https://crates.io/search?q={}',
+    'cr': 'https://crates.io/search?q={}'
 }
