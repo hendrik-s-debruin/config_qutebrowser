@@ -11,36 +11,36 @@ js_scripts_directory = expanduser("~") + "/.config/qutebrowser/js"
 # Command Aliases
 # ==============================================================================
 c.aliases = {'w': 'session-save',
-    'q': 'quit',
-    'wq': 'quit --save',
-    'v' : 'spawn --userscript ~/.config/qutebrowser/myscripts/zathura.sh',
-    'bmark' : 'bookmark-add',
-    'rebash' : 'config-source',
-    'blank' : 'open about:blank',
+    'q':      'quit',
+    'wq':     'quit --save',
+    'v':      'spawn --userscript ~/.config/qutebrowser/myscripts/zathura.sh',
+    'bmark':  'bookmark-add',
+    'rebash': 'config-source',
+    'blank':  'open about:blank',
     }
 
 # ==============================================================================
 # Theme
 # ==============================================================================
-background       = "#32302f"
-foreground       = "#ebdbb2"
-highlight        = "#3c3836"
-black            = "#282828"
-gray             = "#928374"
-lightgray        = "#202020"
-white            = "#a89984"
-red              = "#cc241d"
-lightred         = "#fb4934"
-green            = "#98971a"
-lightgreen       = "#b8bb26"
-orange           = "#d79921"
-yellow           = "#fabd2f"
-blue             = "#458588"
-lightblue        = "#83a598"
-magenta          = "#b16286"
-lightmagenta     = "#d3869b"
-cyan             = "#689d6a"
-lightcyan        = "#8ec07c"
+background   = "#32302f"
+foreground   = "#ebdbb2"
+highlight    = "#3c3836"
+black        = "#282828"
+gray         = "#928374"
+lightgray    = "#202020"
+white        = "#a89984"
+red          = "#cc241d"
+lightred     = "#fb4934"
+green        = "#98971a"
+lightgreen   = "#b8bb26"
+orange       = "#d79921"
+yellow       = "#fabd2f"
+blue         = "#458588"
+lightblue    = "#83a598"
+magenta      = "#b16286"
+lightmagenta = "#d3869b"
+cyan         = "#689d6a"
+lightcyan    = "#8ec07c"
 
 # ============================== Completion Widget =============================
 c.colors.completion.category.bg                 = background
@@ -176,49 +176,51 @@ c.url.searchengines = {
     # ================================= General ================================
     # DuckDuckGO
     'DEFAULT': 'https://duckduckgo.com/?q={}',
-    'd': 'https://duckduckgo.com/?q={}',
+    'd':       'https://duckduckgo.com/?q={}',
     # Google
-    'g' :  'http://www.google.com/search?q={}',
+    'g':       'http://www.google.com/search?q={}',
     # Youtube
-    'y' : 'https://www.youtube.com/results?search_query={}',
+    'y':       'https://www.youtube.com/results?search_query={}',
     # google scholar
-    's' : 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={}',
+    's':       'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={}',
 
     # ================================ Reference ===============================
     # CPPreference
-    'std' : 'https://en.cppreference.com/mwiki/index.php?title=Special%3ASearch&search={}&button=',
+    'std':     'https://en.cppreference.com/mwiki/index.php?title=Special%3ASearch&search={}&button=',
     # StackOverflow
-    'so' : 'https://stackoverflow.com/search?q={}',
+    'so':      'https://stackoverflow.com/search?q={}',
+    # Python
+    'py':      'https://docs.python.org/3.8/search.html?q={}&check_keywords=yes&area=default',
 
     # ============================== Dictionaries ==============================
-    'enit'   : 'http://www.wordreference.com/enit/{}',
-    'iten'   : 'http://www.wordreference.com/iten/{}',
-    'conjit' : 'http://www.wordreference.com/conj/ItVerbs.aspx?v={}',
+    'enit':    'http://www.wordreference.com/enit/{}',
+    'iten':    'http://www.wordreference.com/iten/{}',
+    'conjit':  'http://www.wordreference.com/conj/ItVerbs.aspx?v={}',
 
     # Spanish
-    'enes'   : 'http://www.wordreference.com/enes/{}',
-    'esen'   : 'http://www.wordreference.com/esen/{}',
-    'conjes' : 'http://www.wordreference.com/conj/EsVerbs.aspx?v={}',
+    'enes':    'http://www.wordreference.com/enes/{}',
+    'esen':    'http://www.wordreference.com/esen/{}',
+    'conjes':  'http://www.wordreference.com/conj/EsVerbs.aspx?v={}',
 
     # German
-    'ende'   : 'http://www.wordreference.com/ende/{}',
-    'deen'   : 'http://www.wordreference.com/deen/{}',
-    'conjde' : 'http://www.verbix.com/webverbix/German/{}.html',
+    'ende':    'http://www.wordreference.com/ende/{}',
+    'deen':    'http://www.wordreference.com/deen/{}',
+    'conjde':  'http://www.verbix.com/webverbix/German/{}.html',
 
     # French
-    'enfr'   : 'http://www.wordreference.com/enfr/{}',
-    'fren'   : 'http://www.wordreference.com/fren/{}',
-    'conjfr' : 'http://www.wordreference.com/conj/FrVerbs.aspx?v={}',
+    'enfr':    'http://www.wordreference.com/enfr/{}',
+    'fren':    'http://www.wordreference.com/fren/{}',
+    'conjfr':  'http://www.wordreference.com/conj/FrVerbs.aspx?v={}',
 
     # Russian
-    'enru' : 'http://www.wordreference.com/enru/{}',
-    'ruen' : 'http://www.wordreference.com/ruen/{}',
-    'руан' : 'http://www.wordreference.com/ruen/{}',
+    'enru':    'http://www.wordreference.com/enru/{}',
+    'ruen':    'http://www.wordreference.com/ruen/{}',
+    'руан':    'http://www.wordreference.com/ruen/{}',
 
     # Czech
-    'encz' : 'https://slovnik.seznam.cz/preklad/anglicky_cesky/{}',
-    'czen' : 'https://slovnik.seznam.cz/preklad/cesky_anglicky/{}',
+    'encz':    'https://slovnik.seznam.cz/preklad/anglicky_cesky/{}',
+    'czen':    'https://slovnik.seznam.cz/preklad/cesky_anglicky/{}',
 
     # ================================== IEEE ==================================
-    'ieee': 'https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={}'
+    'ieee':    'https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={}'
 }
