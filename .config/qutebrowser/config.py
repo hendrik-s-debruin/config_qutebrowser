@@ -42,6 +42,9 @@ lightmagenta = "#d3869b"
 cyan         = "#689d6a"
 lightcyan    = "#8ec07c"
 
+# ==================================== Fonts ===================================
+c.fonts.default_family = "Source Code Pro"
+
 # ============================== Completion Widget =============================
 c.colors.completion.category.bg                 = background
 c.colors.completion.category.border.bottom      = background
