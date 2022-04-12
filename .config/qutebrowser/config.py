@@ -235,6 +235,9 @@ c.url.searchengines = {
     'crates': 'https://crates.io/search?q={}',
     'cr': 'https://crates.io/search?q={}',
 
+    # ============================== stackoverflow =============================
+    'so': 'https://stackoverflow.com/search?q={}',
+
     # =================================== Go ===================================
     'gl': 'https://pkg.go.dev/search?q={}'
 }
