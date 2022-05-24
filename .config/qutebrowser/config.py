@@ -227,6 +227,9 @@ c.url.searchengines = {
     'encz':    'https://slovnik.seznam.cz/preklad/anglicky_cesky/{}',
     'czen':    'https://slovnik.seznam.cz/preklad/cesky_anglicky/{}',
 
+    # Chinese
+    'hanzi': 'https://dictionary.writtenchinese.com/#sk={}=pinyin',
+
     # ================================== IEEE ==================================
     'ieee':    'https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={}',
 
