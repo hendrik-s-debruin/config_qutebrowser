@@ -137,9 +137,6 @@ c.colors.statusbar.url.warn.fg                  = yellow
 c.colors.tabs.selected.odd.bg                   = background
 c.colors.tabs.selected.odd.fg                   = foreground
 
-# =================================== Webpage ==================================
-c.colors.webpage.bg                             = background
-
 # ==============================================================================
 # Behaviour
 # ==============================================================================
@@ -160,8 +157,6 @@ c.url.start_pages           = ['about:blank']
 config.bind('<Ctrl-e>', 'scroll down')
 config.bind('<Ctrl-y>', 'scroll up')
 config.bind('E', 'open-editor')
-config.bind('d', 'close')
-config.bind('x', 'close')
 config.bind('zi', 'zoom-in')
 config.bind('zo', 'zoom-out')
 config.bind('zz', 'zoom 100')
