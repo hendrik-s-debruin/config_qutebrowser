@@ -166,6 +166,7 @@ config.bind('c', 'tab-clone')
 config.bind("s", "jseval --file " + js_scripts_directory + "/scroll.js")
 config.bind("S", "jseval --file " + js_scripts_directory + "/noscroll.js")
 config.bind('w', 'jseval document.body.style.backgroundColor = "white";')
+config.unbind("d") # do not close window
 
 # ==============================================================================
 # Search Engines
