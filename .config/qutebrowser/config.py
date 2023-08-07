@@ -238,5 +238,8 @@ c.url.searchengines = {
     'so': 'https://stackoverflow.com/search?q={}',
 
     # =================================== Go ===================================
-    'gl': 'https://pkg.go.dev/search?q={}'
+    'gl': 'https://pkg.go.dev/search?q={}',
+
+    # ================================ Reddit ==================================
+    'r': 'https://www.reddit.com/r/{}'
 }
